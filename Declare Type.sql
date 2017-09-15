@@ -1,6 +1,6 @@
 set serveroutput on
 
-/* 
+/*
     we can declare TYPE (in this case table of one column of certain type) and then assign our variable to that type
 */
 
@@ -18,3 +18,5 @@ BEGIN
     dbms_output.put_line(my_dept_table(i));
   END LOOP;
 end;
+
+SELECT SYSDATE FROM DUAL;
