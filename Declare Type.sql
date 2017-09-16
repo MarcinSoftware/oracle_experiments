@@ -18,5 +18,3 @@ BEGIN
     dbms_output.put_line(my_dept_table(i));
   END LOOP;
 end;
-
-SELECT SYSDATE FROM DUAL;
