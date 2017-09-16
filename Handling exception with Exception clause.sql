@@ -28,4 +28,4 @@ exception
   end;
 end;
 /
-select * from analysis
+select * from analysis;
